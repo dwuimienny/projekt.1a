@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="utf-8"/>
 <title>Łucznictwo konne w polsce</title>
-<link rel="stylesheet" href="projekt1css.css" type="text/css"/>
+<link rel="stylesheet" href=https://github.com/dwuimienny/projekt.1a/blob/master/projekt1css.css" type="text/css"/>
 <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
 </head>
 
