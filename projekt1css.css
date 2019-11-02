@@ -1,0 +1,113 @@
+body
+{
+    background-image: url("background.jpg");
+    background-color:rgb(255 ,226 ,168);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0px;
+    padding: 0px;
+
+}
+.box
+{
+    display: grid;
+    grid-template-areas:
+    'gheader' 
+    'gmain';
+    
+    
+}
+.header
+{
+    font-size: 4em;
+    grid-area: gheader;
+    text-align: center;
+    font-family: 'Bitter', serif;
+}
+main
+{
+    grid-area: gmain;
+    display: grid;
+    grid-template-areas:
+    'box1 box2'
+    'box3 box4';
+    justify-content: space-evenly;
+    margin: 2vh;
+}
+.smallbox
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-sizing: border-box;  
+    height: 30vh;
+    width: 30vh;
+    opacity: 0.9;
+    margin: 5vh;
+    
+    
+}
+
+#grom
+{
+    grid-area: box1;
+    background-image: url("grom.jpg");
+    background-color: black;
+    transition: transform 0.5s ease-in-out;
+}
+    
+#amm
+{
+    grid-area: box2;
+    background-image: url("AMM.jpg");
+    background-color: white;
+    transition: transform 0.5s ease-in-out;
+}
+
+#kawalkada
+{
+    grid-area: box3;
+    background-image: url("kawalkada.jpg");
+    transition: transform 0.5s ease-in-out;
+}
+
+#pslk
+{
+    grid-area: box4;
+    background-image: url("pslk.jpg");
+    transition: transform 0.5s ease-in-out;
+}
+
+#tlo
+{
+    position: absolute;
+    bottom: 0;
+    right: 1;
+    color: whitesmoke;
+    opacity: 0.1;
+}
+.smallbox:hover
+{
+    transform: scale(0.7);
+    
+}
+@media only screen and (max-width: 767px)
+{
+    .header
+    {
+        font-size: 3em;
+    }
+    main
+{
+    grid-area: gmain;
+    display: grid;
+    grid-template-areas:
+    'box1'
+    'box2'
+    'box3'
+    'box4';
+    justify-content: space-evenly;
+    margin: 2vh;
+}
+}
